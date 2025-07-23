@@ -17,7 +17,7 @@ public class SecurityConfiguration {
 
     private final JwtAuthenticationFilter jwtAuthFilter;
 
-    // ✅ Manual constructor to inject jwtAuthFilter
+   
     public SecurityConfiguration(JwtAuthenticationFilter jwtAuthFilter) {
         this.jwtAuthFilter = jwtAuthFilter;
     }
