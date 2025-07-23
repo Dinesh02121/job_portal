@@ -13,7 +13,7 @@ public class AuthController {
 
     private final AuthService authService;
 
-    // ✅ Manual constructor fixes Lombok issues
+    
     public AuthController(AuthService authService) {
         this.authService = authService;
     }
